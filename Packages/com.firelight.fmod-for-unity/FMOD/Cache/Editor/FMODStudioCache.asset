@@ -1,0 +1,563 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8882608708326312020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Venus 3D
+  m_EditorClassIdentifier: 
+  Path: event:/Venus 3D
+  Guid:
+    Data1: -1401185795
+    Data2: 1336841980
+    Data3: 1882636942
+    Data4: -366334078
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 85
+  MaxDistance: 1200
+  Length: 0
+--- !u!114 &-8649368909068099044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Projectiles/Firing 2
+  m_EditorClassIdentifier: 
+  Path: event:/Projectiles/Firing 2
+  Guid:
+    Data1: 1883173668
+    Data2: 1275826690
+    Data3: -929240183
+    Data4: 1782719410
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 1000
+  Length: 0
+--- !u!114 &-8614724566566551329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Transit of Jupiter
+  m_EditorClassIdentifier: 
+  Path: event:/Transit of Jupiter
+  Guid:
+    Data1: -1048810670
+    Data2: 1103238632
+    Data3: -1580646502
+    Data4: 253350824
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 81000
+--- !u!114 &-8597165644199202262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Firing 3D
+  m_EditorClassIdentifier: 
+  Path: event:/Firing 3D
+  Guid:
+    Data1: -696261835
+    Data2: 1284950238
+    Data3: -1695454066
+    Data4: -1675643786
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3499637483873772082}
+  MinDistance: 1
+  MaxDistance: 4000
+  Length: 0
+--- !u!114 &-7275765510087955814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Projectiles/Firing 8
+  m_EditorClassIdentifier: 
+  Path: event:/Projectiles/Firing 8
+  Guid:
+    Data1: 1772311531
+    Data2: 1164124897
+    Data3: 1834202244
+    Data4: -517813193
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 1000
+  Length: 0
+--- !u!114 &-6459397335678485917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/Final/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638380181153897313
+  FileSizes:
+  - Name: Desktop
+    Value: 3327360
+  Exists: 1
+--- !u!114 &-489418983805873317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Projectiles/Firing 1
+  m_EditorClassIdentifier: 
+  Path: event:/Projectiles/Firing 1
+  Guid:
+    Data1: 1286704866
+    Data2: 1319719768
+    Data3: 1891654797
+    Data4: -1860482574
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 1000
+  Length: 0
+--- !u!114 &-409453031854168358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Firing
+  m_EditorClassIdentifier: 
+  Path: event:/Firing
+  Guid:
+    Data1: 956059328
+    Data2: 1222899495
+    Data3: -1692207429
+    Data4: 661987071
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 2308695254763403134}
+  - {fileID: -6459397335678485917}
+  EditorEvents:
+  - {fileID: -8614724566566551329}
+  - {fileID: -409453031854168358}
+  - {fileID: 2497629317874314799}
+  - {fileID: 1333484989480808035}
+  - {fileID: -8882608708326312020}
+  - {fileID: 7435524592137399117}
+  - {fileID: -8649368909068099044}
+  - {fileID: 7753972655170180705}
+  - {fileID: 1215058478700389559}
+  - {fileID: 6718719406349323184}
+  - {fileID: 7936616951107099949}
+  - {fileID: -489418983805873317}
+  - {fileID: -7275765510087955814}
+  - {fileID: -8597165644199202262}
+  - {fileID: 2166061333999683535}
+  - {fileID: 1686880450867815601}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -6459397335678485917}
+  StringsBanks:
+  - {fileID: 2308695254763403134}
+  cacheTime: 638380181153941674
+  cacheVersion: 131609
+--- !u!114 &1215058478700389559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Projectiles/Firing 6
+  m_EditorClassIdentifier: 
+  Path: event:/Projectiles/Firing 6
+  Guid:
+    Data1: 236353424
+    Data2: 1105585079
+    Data3: -1910846547
+    Data4: 330175913
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 1000
+  Length: 0
+--- !u!114 &1333484989480808035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jupiter 3D
+  m_EditorClassIdentifier: 
+  Path: event:/Jupiter 3D
+  Guid:
+    Data1: -1584826948
+    Data2: 1160517449
+    Data3: 1598266004
+    Data4: 1021480343
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 8088557226706488242}
+  MinDistance: 9.6
+  MaxDistance: 4000
+  Length: 0
+--- !u!114 &1686880450867815601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Little Melody
+  m_EditorClassIdentifier: 
+  Path: event:/Little Melody
+  Guid:
+    Data1: -710902419
+    Data2: 1225509873
+    Data3: 248217772
+    Data4: 1366226637
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 400
+  Length: 3000
+--- !u!114 &2166061333999683535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Wander Light
+  m_EditorClassIdentifier: 
+  Path: event:/Wander Light
+  Guid:
+    Data1: -719962439
+    Data2: 1277136795
+    Data3: 528649359
+    Data4: -1004221831
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 3800
+  Length: 0
+--- !u!114 &2308695254763403134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/Final/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638380181153941674
+  FileSizes:
+  - Name: Desktop
+    Value: 1504
+  Exists: 1
+--- !u!114 &2497629317874314799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/impact
+  m_EditorClassIdentifier: 
+  Path: event:/impact
+  Guid:
+    Data1: -1948267373
+    Data2: 1102522776
+    Data3: -1876695423
+    Data4: -104003235
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 21000
+--- !u!114 &3499637483873772082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Firing 3D/Note
+  m_EditorClassIdentifier: 
+  Name: Note
+  StudioPath: 
+  Min: -0.5
+  Max: 8.5
+  Default: 0
+  ID:
+    data1: 687254974
+    data2: 2188202548
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6718719406349323184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Projectiles/Firing 3
+  m_EditorClassIdentifier: 
+  Path: event:/Projectiles/Firing 3
+  Guid:
+    Data1: 962313881
+    Data2: 1208661503
+    Data3: -1492122478
+    Data4: -1228940854
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 1000
+  Length: 0
+--- !u!114 &7435524592137399117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Projectiles/Firing 4
+  m_EditorClassIdentifier: 
+  Path: event:/Projectiles/Firing 4
+  Guid:
+    Data1: 1487552772
+    Data2: 1216340570
+    Data3: 725924512
+    Data4: -2063458549
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 1000
+  Length: 0
+--- !u!114 &7753972655170180705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Projectiles/Firing 5
+  m_EditorClassIdentifier: 
+  Path: event:/Projectiles/Firing 5
+  Guid:
+    Data1: -818767995
+    Data2: 1330382198
+    Data3: -335809898
+    Data4: 1686260793
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 1000
+  Length: 0
+--- !u!114 &7936616951107099949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Projectiles/Firing 7
+  m_EditorClassIdentifier: 
+  Path: event:/Projectiles/Firing 7
+  Guid:
+    Data1: 1931892389
+    Data2: 1162925467
+    Data3: 909270162
+    Data4: 921887414
+  Banks:
+  - {fileID: -6459397335678485917}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 1000
+  Length: 0
+--- !u!114 &8088557226706488242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jupiter 3D/JupiterPitch
+  m_EditorClassIdentifier: 
+  Name: JupiterPitch
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 3534894086
+    data2: 1794400748
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
