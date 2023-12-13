@@ -19,7 +19,7 @@ public class StructureBehavior : MonoBehaviour
 
     Vector3 torque;
 
-    [SerializeField] float leftBound;
+    private float leftBound;
 
     // Start is called before the first frame update
     void Start()
@@ -48,7 +48,7 @@ public class StructureBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gameObject.transform.position.x < leftBound)
+        if (transform.position.x < leftBound)
         {
             Debug.Log("Destroying");
             Destroy(gameObject);

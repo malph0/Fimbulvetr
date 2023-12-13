@@ -20,4 +20,9 @@ public class MoonLoop : MonoBehaviour
     {
         instance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
     }
+
+    private void OnDestroy()
+    {
+        instance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
 }

@@ -34093,7 +34093,6 @@ MonoBehaviour:
   maxAlphaClip: 0.31
   minAlphaClip: 0
   alphaShiftSpeed: 0.0019
-  leftBound: -450
 --- !u!54 &4661125155328315776
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34164,7 +34163,7 @@ MonoBehaviour:
     Path: event:/Venus 3D
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
